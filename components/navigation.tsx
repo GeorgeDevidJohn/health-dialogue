@@ -28,7 +28,7 @@ export function Navigation() {
 
   const headerClasses = [
     "fixed left-0 right-0 top-0 z-50 transition-colors transition-shadow duration-300",
-    scrolled ? "bg-green-900/60 backdrop-blur-sm shadow-lg shadow-black/20" : "bg-transparent",
+    scrolled ? "bg-transparent text-white" : "bg-transparent text-black",
   ].join(" ")
 
   return (
