@@ -14,8 +14,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'MindTalk - Psychology & Counseling',
+  title: 'Health Dialogue  - Psychology & Counseling',
   description: 'Professional psychology counseling services. The healthy mind is a wealthy soul. Quality care from quality experts.',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export const viewport: Viewport = {

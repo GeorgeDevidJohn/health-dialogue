@@ -6,8 +6,8 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 
 const CONTACT_EMAIL = "healthdngo@gmail.com"
-const PHONE_PRIMARY = "+91 75105 71656"
-const PHONE_SECONDARY = "+91 70125 71656"
+const PHONE_PRIMARY = "+91 70125 71656"
+const PHONE_SECONDARY = "+91 75105 71656"
 
 const ADDRESS_LINES = [
   "Health Dialogue Kozhikode",
