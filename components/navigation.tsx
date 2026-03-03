@@ -23,7 +23,7 @@ export function Navigation() {
 
   const isLightNav =
     pathname.startsWith("/services") ||
-    pathname.startsWith("/contcatus") ||
+    pathname.startsWith("/contactus") ||
     pathname.startsWith("/aboutus")
 
   const headerClasses = [
@@ -81,7 +81,7 @@ export function Navigation() {
             About Us
           </Link>
           <Link
-            href="/contcatus"
+            href="/contactus"
             className={`text-sm font-medium transition-colors hover:text-primary ${
               isLightNav ? "text-primary-foreground" : "text-muted-foreground"
             }`}
@@ -92,7 +92,7 @@ export function Navigation() {
 
         <div className="hidden lg:inline-block">
           <Link
-            href="/contcatus"
+            href="/contactus"
             className="rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Contact Us
@@ -152,7 +152,7 @@ export function Navigation() {
                 About Us
               </Link>
               <Link
-                href="/contcatus"
+                href="/contactus"
                 className="text-sm font-medium text-muted-foreground"
                 onClick={() => setIsOpen(false)}
               >
@@ -160,7 +160,7 @@ export function Navigation() {
               </Link>
               <div className="mt-4">
                 <Link
-                  href="/contcatus"
+                  href="/contactus"
                   className="inline-flex w-full items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
                   onClick={() => setIsOpen(false)}
                 >

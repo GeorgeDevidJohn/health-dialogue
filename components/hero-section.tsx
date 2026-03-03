@@ -55,7 +55,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl">
               <Image
-                src="/images/hero-banner.jpeg"
+                src="/images/hero-banner.png"
                 alt="Health Dialogue - Healthy Communities & Healthy Relationships"
                 width={800}
                 height={600}

@@ -163,7 +163,7 @@ export default function ServicesPage() {
             </p>
           </div>
           <Link
-            href="/contcatus"
+            href="/contactus"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Talk to our team

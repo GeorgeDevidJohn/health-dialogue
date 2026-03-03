@@ -43,7 +43,7 @@ export function FaqSection() {
             We stand committed to supporting individuals in distress and creating a more compassionate, connected society.
             </p>
             <a
-              href="#contact"
+              href="/contactus"
               className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-opacity hover:opacity-80"
             >
               See More

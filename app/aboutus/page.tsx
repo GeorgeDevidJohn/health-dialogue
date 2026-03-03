@@ -78,7 +78,7 @@ export default function AboutUsPage() {
                 Explore our services
               </Link>
               <Link
-                href="/contcatus"
+                href="/contactus"
                 className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/60 bg-transparent px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
               >
                 Meet with a therapist
@@ -237,7 +237,7 @@ export default function AboutUsPage() {
             </p>
           </div>
           <Link
-            href="/contcatus"
+            href="/contactus"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Contact our team

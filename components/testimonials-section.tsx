@@ -80,7 +80,7 @@ export function TestimonialsSection() {
                   <Image src="/images/testimonial-john.png" alt="John Wick" width={40} height={40} className="h-full w-full object-cover" />
                 </div>
                 <div>
-                  <p className="font-semibold text-card-foreground">John Wick</p>
+                  <p className="font-semibold text-card-foreground">Ebin Sebastian</p>
                   <p className="text-xs text-muted-foreground">Our Founder</p>
                 </div>
               </div>
