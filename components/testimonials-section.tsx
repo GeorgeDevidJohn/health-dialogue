@@ -81,7 +81,7 @@ export function TestimonialsSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-card-foreground">Ebin Sebastian</p>
-                  <p className="text-xs text-muted-foreground">Our Founder</p>
+                  <p className="text-xs text-muted-foreground">Director & Consultant Psychologist</p>
                 </div>
               </div>
             </div>
