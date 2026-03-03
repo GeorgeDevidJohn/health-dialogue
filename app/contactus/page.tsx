@@ -175,6 +175,32 @@ export default function ContactUsPage() {
         </div>
       </section>
 
+      {/* Map location */}
+      <section className="bg-background pb-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mb-6 max-w-2xl">
+            <h2 className="font-serif text-2xl font-bold text-foreground md:text-3xl">
+              Find us on the map.
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground md:text-base">
+              Our centre is located near Medical College, Kozhikode. Use the interactive map below to plan your visit or
+              share the location with someone who may need support.
+            </p>
+          </div>
+          <div className="overflow-hidden rounded-3xl shadow-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.901338599077!2d75.83557809999999!3d11.268662500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b9b5b000125%3A0x3fcb43bb1c1b388b!2s7R9P%2BF68%2C%20Ummalathoor%2C%20Kozhikode%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sca!4v1772557453448!5m2!1sen!2sca"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Simple CTA strip reusing footer contact anchor */}
       <section className="bg-secondary py-12 lg:py-14">
         <div className="mx-auto flex max-w-7xl flex-col items-start gap-4 px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
