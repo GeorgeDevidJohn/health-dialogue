@@ -56,7 +56,48 @@ export function TestimonialsSection() {
             </p>
 
             <div className="mt-8 space-y-4">
-              {teamMembers.map((member) => (
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/images/about-us-imag.jpeg"
+                alt="Health Dialogue team providing holistic mental health support"
+                width={640}
+                height={480}
+                className="h-[320px] w-full object-cover md:h-[380px] lg:h-[420px]"
+              />
+            </div>
+            
+              {/* {teamMembers.map((member) => (
+                <article
+                  key={member.name}
+                  className="rounded-2xl bg-card/80 p-4 shadow-sm ring-1 ring-border/60"
+                >
+                  <h3 className="font-serif text-base font-semibold text-foreground md:text-lg">
+                    {member.name}
+                  </h3>
+                  <p className="mt-1 text-xs font-medium uppercase tracking-wide text-primary md:text-sm">
+                    {member.role}
+                  </p>
+                  <p className="mt-2 text-xs leading-relaxed text-muted-foreground md:text-sm">
+                    {member.description}
+                  </p>
+                </article>
+              ))} */}
+            </div>
+          </div>
+
+          {/* Right: Image */}
+          <div className="relative">
+            {/* <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/images/about-us-imag.jpeg"
+                alt="Health Dialogue team providing holistic mental health support"
+                width={640}
+                height={480}
+                className="h-[320px] w-full object-cover md:h-[380px] lg:h-[420px]"
+              />
+            </div> */}
+             <div className="mt-8 space-y-4">
+             {teamMembers.map((member) => (
                 <article
                   key={member.name}
                   className="rounded-2xl bg-card/80 p-4 shadow-sm ring-1 ring-border/60"
@@ -72,20 +113,16 @@ export function TestimonialsSection() {
                   </p>
                 </article>
               ))}
-            </div>
-          </div>
-
-          {/* Right: Image */}
-          <div className="relative">
-            <div className="overflow-hidden rounded-3xl shadow-lg">
-              <Image
-                src="/images/about-us-imag.jpeg"
-                alt="Health Dialogue team providing holistic mental health support"
-                width={640}
-                height={480}
-                className="h-[320px] w-full object-cover md:h-[380px] lg:h-[420px]"
-              />
-            </div>
+              </div>
+              <a
+              href="/aboutus"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-opacity hover:opacity-80"
+            >
+              Learn More
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
