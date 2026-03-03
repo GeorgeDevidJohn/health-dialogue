@@ -10,7 +10,7 @@ const PHONE_PRIMARY = "+91 75105 71656"
 const PHONE_SECONDARY = "+91 70125 71656"
 
 const ADDRESS_LINES = [
-  "HEALTH DIALOGUE",
+  "Health Dialogue Kozhikode",
   "Mental Wellness Centre",
   "Ozanam Bhavan",
   "Medical College, Kozhikode 673008",
@@ -40,7 +40,7 @@ export default function ContactUsPage() {
               Let&apos;s talk about your mental wellbeing.
             </h1>
             <p className="mt-5 text-base leading-relaxed text-primary-foreground/90">
-              Reach out to book an appointment, ask a question, or learn more about how Health Dialogue can support you
+              Reach out to book an appointment, ask a question, or learn more about how Health Dialogue Kozhikode can support you
               and your loved ones. Every message is read with care and handled confidentially.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">

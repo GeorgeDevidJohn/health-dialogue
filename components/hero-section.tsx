@@ -10,13 +10,13 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="relative z-10">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-primary">
-              Welcome To Health Dialogue
+              Welcome To Health Dialogue Kozhikode
             </p>
             <h1 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
               <span className="text-balance">The Healthy Mind Is A Wealthy Soul</span>
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground">
-            You don’t have to navigate life’s challenges alone. At Health Dialogue, we provide compassionate, confidential, and professional mental health support tailored to your unique journey.
+            At Health Dialogue Kozhikode, we bring together some of the best experts in mental health to support you through life’s challenges. Our experienced professionals provide compassionate, confidential, and personalized care to guide you toward better emotional well-being.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -35,7 +35,7 @@ export function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="mt-12 flex flex-wrap gap-8">
+            {/* <div className="mt-12 flex flex-wrap gap-8">
               <div>
                 <p className="text-3xl font-bold text-foreground">25+</p>
                 <p className="text-sm text-muted-foreground">Years Experience</p>
@@ -48,7 +48,7 @@ export function HeroSection() {
                 <p className="text-3xl font-bold text-foreground">99%</p>
                 <p className="text-sm text-muted-foreground">Satisfied Client</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Image */}
@@ -56,7 +56,7 @@ export function HeroSection() {
             <div className="relative overflow-hidden rounded-3xl">
               <Image
                 src="/images/hero-banner.png"
-                alt="Health Dialogue - Healthy Communities & Healthy Relationships"
+                alt="Health Dialogue Kozhikode - Healthy Communities & Healthy Relationships"
                 width={800}
                 height={600}
                 className="h-[500px] w-full object-cover lg:h-[600px]"
@@ -67,7 +67,7 @@ export function HeroSection() {
                 <div className="h-12 w-12 flex-shrink-0 overflow-hidden rounded-full">
                   <Image
                     src="/images/consultant-ebin.png"
-                    alt="Ebin Sebastian, Director & Consultant Psychologist"
+                    alt="Ebin Sebastian, Director & Consultant Psychologist (Msc, Clinical Psychology)"
                     width={48}
                     height={48}
                     className="h-full w-full object-cover"
@@ -75,12 +75,12 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-card-foreground">Ebin Sebastian</p>
-                  <p className="text-xs text-muted-foreground">Director & Consultant Psychologist</p>
+                  <p className="text-xs text-muted-foreground">Director & Consultant Psychologist (Msc, Clinical Psychology)</p>
                 </div>
               </div>
             </div>
             {/* Review badge */}
-            <div className="absolute -left-4 top-8 rounded-2xl bg-card p-4 shadow-lg lg:-left-8">
+            {/* <div className="absolute -left-4 top-8 rounded-2xl bg-card p-4 shadow-lg lg:-left-8">
               <p className="text-2xl font-bold text-foreground">1000+</p>
               <p className="text-xs text-muted-foreground">Happy Souls</p>
               <div className="mt-1 flex">
@@ -90,7 +90,7 @@ export function HeroSection() {
                   </svg>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

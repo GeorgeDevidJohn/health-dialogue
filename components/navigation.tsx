@@ -38,7 +38,7 @@ export function Navigation() {
           <div className="relative h-12 w-12 overflow-hidden rounded-full bg-white shadow-md">
             <Image
               src="/health-logo.png"
-              alt="Health Dialogue logo"
+              alt="Health Dialogue Kozhikode logo"
               fill
               sizes="48px"
               className="object-contain"
@@ -50,7 +50,7 @@ export function Navigation() {
               isLightNav ? "text-primary-foreground" : "text-foreground"
             }`}
           >
-            Health Dialogue
+            Health Dialogue Kozhikode
           </span>
         </Link>
 

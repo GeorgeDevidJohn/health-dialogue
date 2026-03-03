@@ -18,16 +18,16 @@ export function Footer() {
               <div className="relative h-10 w-10 overflow-hidden rounded-full bg-white">
                 <Image
                   src="/health-logo.png"
-                  alt="Health Dialogue logo"
+                  alt="Health Dialogue Kozhikode logo"
                   fill
                   sizes="40px"
                   className="object-contain"
                 />
               </div>
-              <span className="text-lg font-bold text-primary-foreground">Health Dialogue</span>
+              <span className="text-lg font-bold text-primary-foreground">Health Dialogue Kozhikode</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/60">
-            Health Dialogue is a compassionate mental wellness centre in Kozhikode, Kerala, dedicated to building healthy communities and healing relationships.
+            Health Dialogue Kozhikode is a compassionate mental wellness centre in Kozhikode, Kerala, dedicated to building healthy communities and healing relationships.
               </p>
           </div>
 
@@ -46,7 +46,7 @@ export function Footer() {
           <div>
             <h4 className="mb-5 font-semibold text-primary-foreground">Our Services</h4>
             <nav className="flex flex-col gap-3">
-              <Link href="#" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary">Dipression Counseling</Link>
+              <Link href="#" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary">Depression Counseling</Link>
               <Link href="#" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary">Career Guidance</Link>
               <Link href="#" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary">Parental Counseling</Link>
               <Link href="#" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary">Stress Management</Link>
@@ -65,12 +65,16 @@ export function Footer() {
                 <span className="text-sm text-primary-foreground/60">(+91) 751-057-1656</span>
               </div>
               <div className="flex items-center gap-3">
+                <Phone className="h-4 w-4 text-primary" />
+                <span className="text-sm text-primary-foreground/60">(+91) 701-257-1656</span>
+              </div>
+              <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-sm text-primary-foreground/60">healthdngi@gmail.com</span>
+                <span className="text-sm text-primary-foreground/60">healthdngo@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span className="text-sm text-primary-foreground/60">Mental Wellness Centre, Ozanam Bhavan, Kozhikode, Kerala, India</span>
+                <span className="text-sm text-primary-foreground/60">Mental Wellness Centre, Ozanam Bhavan,<br></br> Kozhikode, Kerala, India, 673008</span>
               </div>
             
             </div>
@@ -82,7 +86,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/10">
         <div className="mx-auto max-w-7xl px-6 py-6 lg:px-8">
           <p className="text-center text-sm text-primary-foreground/40">
-            {"Copyright \u00A9 2026 Health Dialogue | Powered by Health Dialogue"}
+            {"Copyright \u00A9 2026 Health Dialogue Kozhikode | Powered by Health Dialogue Kozhikode"}
           </p>
         </div>
       </div>

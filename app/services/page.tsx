@@ -83,7 +83,7 @@ export default function ServicesPage() {
               Compassionate care for every season of life.
             </h1>
             <p className="mt-5 text-base leading-relaxed text-primary-foreground/90">
-              From individual therapy to family and couple sessions, Health Dialogue offers evidence-based,
+              From individual therapy to family and couple sessions, Health Dialogue Kozhikode offers evidence-based,
               relationship-centred care for children, teens, and adults. Explore our services to find the support
               that fits you best.
             </p>

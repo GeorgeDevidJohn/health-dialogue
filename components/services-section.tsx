@@ -54,7 +54,7 @@ export function ServicesSection() {
             <span className="text-balance">Getting You Back To Your Best Self</span>
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          Our team of experienced mental health professionals is here to support you through life’s challenges. We provide compassionate, confidential, and personalized care to help you regain balance, confidence, and well-being.
           </p>
         </div>
 

@@ -60,13 +60,13 @@ export default function AboutUsPage() {
         <div className="relative mx-auto flex max-w-7xl flex-col gap-12 px-6 lg:flex-row lg:items-center lg:px-8">
           <div className="max-w-xl text-primary-foreground">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em]">
-              About Health Dialogue
+              About Health Dialogue Kozhikode
             </p>
             <h1 className="font-serif text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
               Building healthier minds, families, and communities.
             </h1>
             <p className="mt-5 text-base leading-relaxed text-primary-foreground/90">
-              Health Dialogue is a mental wellness centre in Kozhikode dedicated to creating safe, warm spaces where
+              Health Dialogue Kozhikode is a mental wellness centre in Kozhikode dedicated to creating safe, warm spaces where
               people can heal, grow, and reconnect with themselves and each other. We combine clinical expertise with
               deep compassion for real-life struggles.
             </p>
@@ -117,7 +117,7 @@ export default function AboutUsPage() {
                 Our story
               </h2>
               <p className="mt-5 text-sm leading-relaxed text-muted-foreground md:text-base">
-                Health Dialogue was born from a simple but powerful belief: when people feel truly heard and understood,
+                Health Dialogue Kozhikode was born from a simple but powerful belief: when people feel truly heard and understood,
                 healing begins. What started as a small practice has grown into a dedicated mental wellness centre,
                 bringing together psychologists and counselors who share the same heart for people and communities.
               </p>
@@ -193,7 +193,7 @@ export default function AboutUsPage() {
               Our Team
             </p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-4xl">
-              The people behind Health Dialogue.
+              The people behind Health Dialogue Kozhikode.
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground md:text-base">
               Our team brings together training in psychology, counselling, and family systems with a shared passion

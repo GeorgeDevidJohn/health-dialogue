@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: "How long will a session last?",
-    answer: "Each session typically lasts between 1 to 2 hours, depending on the type of therapy and individual client needs. On average, most sessions run for about 60–90 minutes to ensure sufficient time for meaningful discussion and progress."
+    answer: "Each session typically lasts between 45 minutes to 1 hours, depending on the type of therapy and individual client needs. "
   },
   {
     question: "What should I expect during the initial consultation?",

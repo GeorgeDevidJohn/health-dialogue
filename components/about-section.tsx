@@ -34,7 +34,7 @@ export function AboutSection() {
                 </div>
                 <h3 className="mb-2 font-serif text-lg font-semibold text-card-foreground">Our Mission</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                Health Dialogue listens, supports, and unites all people to build a healthier, compassionate society for those in distress.
+                Health Dialogue Kozhikode listens, supports, and unites all people to build a healthier, compassionate society for those in distress.
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ export function AboutSection() {
               <span className="text-balance">Quality Care From Quality Experts</span>
             </h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">
-            Health Dialogue is a compassionate mental wellness centre in Kozhikode, Kerala, dedicated to building healthy communities and healing relationships. We provide a safe, inclusive space for all, regardless of background, offering professional care, empathetic listening, and meaningful dialogue to support individuals and families in distress and emotional challenges.
+            Health Dialogue Kozhikode is a compassionate mental wellness centre in Kozhikode, Kerala, dedicated to building healthy communities and healing relationships. We provide a safe, inclusive space for all, regardless of background, offering professional care, empathetic listening, and meaningful dialogue to support individuals and families in distress and emotional challenges.
             </p>
             <div className="mt-8 flex flex-col gap-4">
               <div className="flex items-start gap-4 rounded-xl bg-secondary p-5">
@@ -57,8 +57,8 @@ export function AboutSection() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">Licensed Professionals</h4>
-                  <p className="mt-1 text-sm text-muted-foreground">All our therapists are fully licensed and experienced in their respective specializations.</p>
+                  <h4 className="font-semibold text-foreground">Professionals</h4>
+                  <p className="mt-1 text-sm text-muted-foreground">All our therapists are fully  experienced in their respective specializations.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 rounded-xl bg-secondary p-5">
