@@ -31,9 +31,9 @@ const teamMembers = [
   },
   {
     name: "Dr Ayushlal P M",
-    role: "Consultant Psychologist",
+    role: "BAMS MD (Ay-Psy)",
     description:
-      "BAMS MD (Ay-Psy), PGDYT; Specialist in Ayurveda Psychiatry and Psychology, Clinical Hypnotherapist, Assistant Professor, Dept. of Kayachikitsa, Rohilkhand Ayurveda Medical College and Hospital, Bareilly, Uttar Pradesh.",
+      "PGDYT; Specialist in Ayurveda Psychiatry and Psychology, Clinical Hypnotherapist, Assistant Professor, Dept. of Kayachikitsa, Rohilkhand Ayurveda Medical College and Hospital, Bareilly, Uttar Pradesh.",
   },
 ]
 
@@ -56,7 +56,7 @@ export function TestimonialsSection() {
             </p>
 
             <div className="mt-8 space-y-4">
-            <div className="overflow-hidden rounded-3xl shadow-lg">
+            {/* <div className="overflow-hidden rounded-3xl shadow-lg">
               <Image
                 src="/images/about-us-imag.jpeg"
                 alt="Health Dialogue team providing holistic mental health support"
@@ -64,6 +64,37 @@ export function TestimonialsSection() {
                 height={480}
                 className="h-[320px] w-full object-cover md:h-[380px] lg:h-[420px]"
               />
+            </div> */}
+
+<div className="relative overflow-hidden rounded-3xl">
+              <Image
+                src="/images/about-us-imag.jpeg"
+                alt="Health Dialogue Kozhikode - Healthy Communities & Healthy Relationships"
+                width={640}
+                height={480}
+                className="h-[500px] w-full object-cover lg:h-[600px]"
+                priority
+              />
+              {/* Overlay Card */}
+              <div className="absolute bottom-6 left-6 right-6 flex items-center gap-4 rounded-2xl bg-card/90 p-4 backdrop-blur-sm">
+                {/* <div className="h-12 w-12 flex-shrink-0 overflow-hidden rounded-full">
+                  <Image
+                    src="/images/consultant-ebin.png"
+                    alt="Ebin Sebastian, Director & Consultant Psychologist (Msc, Clinical Psychology)"
+                    width={48}
+                    height={48}
+                    className="h-full w-full object-cover"
+                  />
+                </div> */}
+                <div>
+                <h3 className="font-serif text-base font-semibold text-foreground md:text-lg">
+                Ebin Sebastian
+                  </h3>
+                  <p className="mt-1 text-xs font-medium uppercase tracking-wide text-primary md:text-sm">
+                  Director & Consultant Psychologist (Msc. Clinical Psychology)
+                  </p>
+                </div>
+              </div>
             </div>
             
               {/* {teamMembers.map((member) => (

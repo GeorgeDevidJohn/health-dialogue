@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Mail, Phone, MapPin, Clock, Instagram } from "lucide-react"
 
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
@@ -111,6 +111,21 @@ export default function ContactUsPage() {
                     >
                       View on Google Maps
                     </Link>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                 
+                  <div>
+                 
+                    <a
+                      href="https://www.instagram.com/healthdialogue_kozhikode"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
+                      aria-label="Health Dialogue Kozhikode on Instagram"
+                    >
+                      <Instagram className="h-4 w-4" />
+                    </a>
                   </div>
                 </div>
                

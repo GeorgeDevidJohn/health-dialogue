@@ -75,7 +75,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-card-foreground">Ebin Sebastian</p>
-                  <p className="text-xs text-muted-foreground">Director & Consultant Psychologist (Msc, Clinical Psychology)</p>
+                  <p className="text-xs text-muted-foreground">Director & Consultant Psychologist (Msc. Clinical Psychology)</p>
                 </div>
               </div>
             </div>

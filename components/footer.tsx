@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -29,6 +29,17 @@ export function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/60">
             Health Dialogue Kozhikode is a compassionate mental wellness centre in Kozhikode, Kerala, dedicated to building healthy communities and healing relationships.
               </p>
+            <div className="mt-4 flex items-center gap-3">
+              <a
+                href="https://www.instagram.com/healthdialogue_kozhikode"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Health Dialogue Kozhikode on Instagram"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
+              >
+                <Instagram className="h-4 w-4" />
+              </a>
+            </div>
           </div>
 
           {/* Explore */}
