@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { DM_Sans, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { FloatingWhatsApp } from '@/components/floating-whatsapp'
 import './globals.css'
 
 const dmSans = DM_Sans({
@@ -36,6 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${dmSans.variable} ${playfair.variable} font-sans antialiased`}>
         {children}
+        <FloatingWhatsApp />
         <Analytics />
       </body>
     </html>
