@@ -21,21 +21,28 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const isLightNav =
+  const isDarkBanner =
     pathname.startsWith("/services") ||
     pathname.startsWith("/contactus") ||
     pathname.startsWith("/aboutus")
 
-  const headerClasses = [
-    "fixed left-0 right-0 top-0 z-50 transition-colors transition-shadow duration-300",
-    scrolled ? "bg-transparent text-white" : "bg-transparent text-black",
-  ].join(" ")
+  const useWhiteText = isDarkBanner && !scrolled
 
   return (
-    <header className={headerClasses}>
+    <header
+      className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? " bg-white lg:bg-background/95 lg:shadow-sm lg:backdrop-blur-sm"
+          : "bg-transparent"
+      }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <div className="relative h-12 w-12 overflow-hidden rounded-full bg-white shadow-md">
+          <div
+            className={`relative h-12 w-12 overflow-hidden rounded-full shadow-md transition-colors duration-300 ${
+              scrolled ? "bg-primary lg:bg-white" : "bg-white"
+            }`}
+          >
             <Image
               src="/health-logo.png"
               alt="Health Dialogue Kozhikode logo"
@@ -46,8 +53,8 @@ export function Navigation() {
             />
           </div>
           <span
-            className={`text-xl font-bold ${
-              isLightNav ? "text-primary-foreground" : "text-foreground"
+            className={`text-xl font-bold transition-colors duration-300 ${
+              useWhiteText ? "text-primary-foreground" : "text-foreground"
             }`}
           >
             Health Dialogue Kozhikode
@@ -59,7 +66,7 @@ export function Navigation() {
           <Link
             href="/"
             className={`text-sm font-medium transition-colors hover:text-primary ${
-              isLightNav ? "text-primary-foreground" : "text-foreground"
+              useWhiteText ? "text-primary-foreground" : "text-foreground"
             }`}
           >
             Home
@@ -67,7 +74,7 @@ export function Navigation() {
           <Link
             href="/services"
             className={`text-sm font-medium transition-colors hover:text-primary ${
-              isLightNav ? "text-primary-foreground" : "text-muted-foreground"
+              useWhiteText ? "text-primary-foreground" : "text-muted-foreground"
             }`}
           >
             Services
@@ -75,7 +82,7 @@ export function Navigation() {
           <Link
             href="/aboutus"
             className={`text-sm font-medium transition-colors hover:text-primary ${
-              isLightNav ? "text-primary-foreground" : "text-muted-foreground"
+              useWhiteText ? "text-primary-foreground" : "text-muted-foreground"
             }`}
           >
             About Us
@@ -83,7 +90,7 @@ export function Navigation() {
           <Link
             href="/contactus"
             className={`text-sm font-medium transition-colors hover:text-primary ${
-              isLightNav ? "text-primary-foreground" : "text-muted-foreground"
+              useWhiteText ? "text-primary-foreground" : "text-muted-foreground"
             }`}
           >
             Contact Us
