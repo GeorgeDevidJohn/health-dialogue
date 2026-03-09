@@ -53,11 +53,11 @@ export function Navigation() {
             />
           </div>
           <span
-            className={`text-xl font-bold transition-colors duration-300 ${
+            className={`text-lg font-bold transition-colors duration-300 ${
               useWhiteText ? "text-primary-foreground" : "text-foreground"
             }`}
           >
-            Health Dialogue Kozhikode
+            Health Dialogue <br /> Kozhikode
           </span>
         </Link>
 
