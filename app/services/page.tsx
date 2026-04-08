@@ -42,7 +42,7 @@ const detailedServices = [
   },
   {
     icon: Shield,
-    title: "Depression Counseling",
+    title: "Depression Management Therapy",
     tagline: "Gentle support when life feels heavy.",
     description:
       "If you’re feeling stuck, drained, or disconnected, you don’t have to go through it alone. Depression counseling helps you understand what’s driving your low mood and gradually rebuild energy, motivation, and hope through small, realistic steps.",

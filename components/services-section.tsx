@@ -29,7 +29,7 @@ const services = [
   },
   {
     icon: Shield,
-    title: "Depression Counseling",
+    title: "Depression Management Therapy",
     description: "Compassionate support to overcome sadness and restore emotional balance.",
   },
   {
